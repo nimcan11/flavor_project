@@ -50,19 +50,19 @@ The project showcases modern front-end logic such as:
 ---
 ## images of the project 
 
-![home page  ](./practical_week/Ex-images/home1.jpg)
+![home page  ](./Ex-images/home1.jpg)
 
-![home page  ](./practical_week/Ex-images/home2.jpg)
+![home page  ](./Ex-images/home2.jpg)
 
-![home page  ](./practical_week/Ex-images/home3.jpg)
+![home page  ](./Ex-images/home3.jpg)
 
-![home page  ](./practical_week/Ex-images/homefooter.jpg)
+![home page  ](./Ex-images/homefooter.jpg)
 
-![home page  ](./practical_week/Ex-images/login.jpg)
+![home page  ](./Ex-images/login.jpg)
 
-![home page  ](./practical_week/Ex-images/meallist.jpg)
+![home page  ](./Ex-images/meallist.jpg)
 
-![home page  ](./practical_week/Ex-images/onemeal.jpg)
+![home page  ](./Ex-images/onemeal.jpg)
 
 ---
 
