@@ -1,7 +1,4 @@
 //imports
-import { Activenav } from "./global.js";
-const Active_links = document.querySelectorAll("a.nav-link")
-Activenav(Active_links);
 
 const form = document.getElementById("loginForm");
 const Lusers = localStorage.getItem("users");

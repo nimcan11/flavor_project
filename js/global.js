@@ -41,19 +41,21 @@ log.addEventListener("click",()=>{
 }
 
 
-const protectRoutes = () => {
+// protect routes 
+const ProctectRoutes = () => {
   if (islogin().login === true) {
     if (
-      window.location.pathname === "../login.html" ||
-      window.location.pathname === "../signup.html"
+      window.location.pathname === "/login.html" ||
+      window.location.pathname === "/signup.html"
     ) {
-      window.location.href = "../index.html";
+      window.location.href = "./index.html";
     }
   }
 };
+
 const Activenav = (links) => {
   let currentPage = window.location.pathname.split("/").pop();
-  if (currentPage === "") currentPage = "index.html"; // default to index
+  if (currentPage === "") currentPage = "index.html"; 
 
   links.forEach((link) => {
     const linkPage = link.getAttribute("href").split("/").pop();
@@ -65,4 +67,4 @@ const Activenav = (links) => {
   });
 };
 
-export{islogin,logout,navaAction,Activenav}
+export{islogin,logout,navaAction,ProctectRoutes,Activenav}

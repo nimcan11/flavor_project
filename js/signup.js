@@ -1,11 +1,13 @@
 // imports 
-import { Activenav} from "./global.js";
+import { Activenav,ProctectRoutes} from "./global.js";
 
 // get elements 
 const passwordInput = document.getElementById("password");
 const strengthfill = document.querySelector("div.strength-fill");
 const strengthtext = document.querySelector("span.strength-text");
 const form = document.getElementById("signupForm");  
+// protect routes function 
+ProctectRoutes();
 // Active and there elements 
 const Active_links = document.querySelectorAll("a.nav-link")
 Activenav(Active_links);
