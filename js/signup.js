@@ -22,45 +22,7 @@ passwordInput.addEventListener("input",function(){
 
 
 })
-const passwordinputchecker = (password)=>{
-    // console.log(password);
-    let feedback= [];
-    let score = 0;
-    if(password.length >= 8){
-       score+= 25;
-       
-    }else{
-         feedback.push("add your password eight charters")
-    }
-    if(/[a-z]/.test(password)){
-        score+= 25;
-    }else{
-        feedback.push("add your password lowercase!!")
-    }
-    if(/[A-Z]./.test(password)){
-        score+= 25;
-    }else{
-        feedback.push("add your password uppercase")
-    }
 
-      if(/[0-9]/.test(password)){
-        score+= 25;
-    }else{
-        feedback.push("add numbrs ")
-    }
-
-
-
-    if(score < 50){
-        return {percentage: score, class:"weak",Text:`weak - add ${feedback.join(",")}`}
-    }else if (score < 75){
-                return {percentage: score, class:"medium",Text:`Good password`}
-    }else{
-        
-         return {percentage: score, class:"strong",Text:`strong password`}
-    }
-
-}
 
 
 // signup form handling 

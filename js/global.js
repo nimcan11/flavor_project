@@ -12,7 +12,7 @@ const islogin = () => {
     };
   }
 }
-
+// nav action function 
 const navaAction = (actions, userElement) => {
   const loginStatus = islogin();
 
@@ -41,7 +41,7 @@ log.addEventListener("click",()=>{
 }
 
 
-// protect routes 
+// protect routes function
 const ProctectRoutes = () => {
   if (islogin().login === true) {
     if (
